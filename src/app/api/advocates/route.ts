@@ -1,6 +1,6 @@
+import { and, eq, ilike, or, sql } from 'drizzle-orm';
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
-import { and, or, eq, ilike, sql } from 'drizzle-orm';
 
 import db from '../../../db';
 import { advocates } from '../../../db/schema';

@@ -1,8 +1,9 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { useDebounce } from './utils';
+
 import Pagination from '../components/Pagination';
+import { useDebounce } from './utils';
 
 type Advocate = {
   id: number;
